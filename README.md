@@ -1,4 +1,3 @@
-Para qué distribuciones de linux funciona este readme?
 # Flask + PostgreSQL + Docker Compose
 
 Este proyecto es una API simple para gestionar estudiantes (CRUD) utilizando Flask, PostgreSQL y Docker Compose.
