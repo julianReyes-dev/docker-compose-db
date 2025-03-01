@@ -7,6 +7,8 @@ Este proyecto es una API simple para gestionar estudiantes (CRUD) utilizando Fla
 - Docker
 - Docker Compose
 - Tener libre el puerto 5000 de localhost
+- Tener espacio suficiente en disco
+- Tener una distribución de linux Ubuntu/Debian
 
 ## Estructura del Proyecto
 
