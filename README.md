@@ -40,6 +40,8 @@ docker-compose-db/
 
 5. **Prueba la API:**
 
+   **Nota:** El servicio se estará corriendo en primer plano, por tanto es necesario abrir otra pesataña en el terminal para probar la API  
+
    **Crear un estudiante:**  
    `curl -X POST -H "Content-Type: application/json" -d '{"nombre": "Juan", "edad": 22, "carrera": "Ingeniería"}' http://localhost:5000/students`
 
