@@ -48,6 +48,11 @@ docker-compose-db/
 
 5. **Prueba la API:**
 
+   Podrá acceder a students.json a través de su navegador en:
+   ```
+   http://localhost:5000/students
+   ```
+
    **Nota:** El servicio se estará corriendo en primer plano, por tanto es necesario abrir otra pesataña en el terminal para probar la API  
 
    **Crear un estudiante:**  
@@ -73,12 +78,6 @@ docker-compose-db/
    **Eliminar un estudiante:**  
    ```
    curl -X DELETE http://localhost:5000/students/1
-   ```
-
-7. **Detener los contenedores:**
-
-   ```
-   docker-compose down
    ```
 
 ## Tecnologías Utilizadas
